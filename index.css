@@ -1,8 +1,7 @@
 body{
         background-color: black;
-        height: 4000px;
-        width: 1000px;
         border-radius: 5px;
+        
 
         .search{
             border-radius: 50px;
@@ -12,7 +11,7 @@ body{
             .search1{
                 background-color: rgb(255, 255, 255);
                 height: 50px;
-                width: 300px;
+                width: 500px;
                 border-radius: 50px;
                 border: 2px solid black;
                 font-family: monospace;
@@ -33,17 +32,48 @@ body{
             font-weight: bold;
             font-size: 20px;
         }
+        .small{
+            background-color: rgb(96, 254, 96);
+            border-radius: 5px;
+            border: 10px solid yellowgreen;
+            font-family: monospace;
+            text-align:center;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .song1{
+            background-color: rgb(255, 121, 97);
+            height: 60px;
+            width: 500px;
+            top: -20px;
+            transform: translate(20px, 20px);
+            border-radius: 50px;
+            border: 2px solid rgb(255, 255, 255);
+            font-family: monospace;
+            text-align:center;
+            font-weight: bold;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            .album1{
+                transform: translate(2px, 3px);
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 2px solid black;
+                }
+            }
+            i{
+                margin-left: 40px;
+                color: black;
+                font-size: 25px;
+                transform: translate(0px, -7px);
+            }
+            hr{
+                transform: translate(0px, 20px);
+                margin-right: 10px;
+                border-radius: 2px;
+            }
+        }
     }
-    .small{
-        background-color: rgb(96, 254, 96);
-        position: absolute;
-        left:50%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
-        border: 10px solid yellowgreen;
-        font-family: monospace;
-        text-align:center;
-        font-weight: bold;
-        font-size: 40px;
-    }
-}
